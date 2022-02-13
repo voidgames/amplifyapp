@@ -9,7 +9,7 @@ function App() {
     <Authenticator>
       {({ signOut, user }) => (
         <div className="App">
-          <p>Hey {user.username}, welcome to my channel, with auth!</p>
+          <p>Hey {user.username}, welcome to website, with auth!</p>
           <button onClick={signOut}>Sign out</button>
         </div>
       )}
